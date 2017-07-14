@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Cors from file</title>
+  </head>
+<body>
+  
+  Open this with file and try to send a request.
+  Notice that if the origin is 'file://' then the origin at the server is null.
+
+  <script>
+    fetch('http://localhost:3001/api/stuff');
+  </script>
+</body>
+</html>
